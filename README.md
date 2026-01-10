@@ -53,7 +53,7 @@ The complete analytical process is documented in `notebooks/house_pricing.ipynb`
 ---
 ## Live Demo
 Check out the live application running on Render:
- **https://house-pricing-model-n8ph.onrender.com\docs
+ https://house-pricing-model-n8ph.onrender.com/docs
 
 ---
 
