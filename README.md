@@ -51,6 +51,11 @@ The complete analytical process is documented in `notebooks/house_pricing.ipynb`
     * Integration of **SHAP (SHapley Additive exPlanations)** to interpret predictions, providing transparency and building trust by explaining *why* a specific price was predicted.
 
 ---
+## Live Demo
+Check out the live application running on Render:
+ **https://house-pricing-model-n8ph.onrender.com\docs
+
+---
 
 ## 🛠️ How to Run the API (Using Docker)
 
