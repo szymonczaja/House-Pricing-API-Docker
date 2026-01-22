@@ -20,10 +20,10 @@ The solution leverages a modern tech stack to ensure the model is scalable, repr
   <img src="https://img.shields.io/badge/-Pandas-150458?style=flat&logo=pandas&logoColor=white">
 </p>
 
-* **FastAPI:** Creates a high-performance, robust API service for handling prediction requests with automatic validation.
-* **Docker:** Ensures consistency across environments by packaging the application, model, and dependencies into an isolated container.
-* **MLflow:** Manages the lifecycle of the ML model, logging the complete pipeline to ensure consistency between training and deployment.
-* **Scikit-learn / Custom Transformers:** Drives the core prediction logic with specialized transformers for data cleaning and feature creation.
+- **FastAPI:** Creates a high-performance, robust API service for handling prediction requests with automatic validation.
+- **Docker:** Ensures consistency across environments by packaging the application, model, and dependencies into an isolated container.
+- **MLflow:** Manages the lifecycle of the ML model, logging the complete pipeline to ensure consistency between training and deployment.
+- **Scikit-learn / Custom Transformers:** Drives the core prediction logic with specialized transformers for data cleaning and feature creation.
 
 
 ## Project Deep Dive: The Data Science Process
