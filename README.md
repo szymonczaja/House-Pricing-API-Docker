@@ -6,7 +6,6 @@ This project aims to build a production-ready Machine Learning pipeline for pred
 
 The core objective is to move beyond simple modeling to create a robust, deployable artifact that handles real-world data challenges through custom transformers and containerization.
 
----
 
 ## Key Technologies Used
 
@@ -26,36 +25,35 @@ The solution leverages a modern tech stack to ensure the model is scalable, repr
 * **MLflow:** Manages the lifecycle of the ML model, logging the complete pipeline to ensure consistency between training and deployment.
 * **Scikit-learn / Custom Transformers:** Drives the core prediction logic with specialized transformers for data cleaning and feature creation.
 
----
 
 ## Project Deep Dive: The Data Science Process
 
 The complete analytical process is documented in `notebooks/house_pricing.ipynb`:
 
 1.  **Exploratory Data Analysis (EDA):**
-    * Initial deep dive to understand data distributions.
-    * Identification of missing values and key correlations driving price.
+    - Initial deep dive to understand data distributions.
+    - Identification of missing values and key correlations driving price.
 
 2.  **Custom Feature Engineering (Critical Step):**
-    * Custom Scikit-learn transformers were developed to handle complex preprocessing within the pipeline.
-    * **`GroupedMedianTransformer`:** Implements smart imputation based on neighborhood medians rather than global averages.
-    * **`FeatureTransformer`:** Generates powerful new features (e.g., Total Square Footage, House Age) to boost model performance.
+    - Custom Scikit-learn transformers were developed to handle complex preprocessing within the pipeline.
+    - **`GroupedMedianTransformer`:** Implements smart imputation based on neighborhood medians rather than global averages.
+    - **`FeatureTransformer`:** Generates powerful new features (e.g., Total Square Footage, House Age) to boost model performance.
 
 3.  **Model Prototyping:**
-    * Experimentation with various algorithms to identify the optimal regressor for the dataset.
+    - Experimentation with various algorithms to identify the optimal regressor for the dataset.
 
 4.  **Model Registration:**
-    * The final, optimized model—along with its entire preprocessing pipeline—is logged and saved using **MLflow**, making it ready for immediate serving.
+    - The final, optimized model—along with its entire preprocessing pipeline—is logged and saved using **MLflow**, making it ready for immediate serving.
 
 5.  **Model Explainability (SHAP):**
-    * Integration of **SHAP (SHapley Additive exPlanations)** to interpret predictions, providing transparency and building trust by explaining *why* a specific price was predicted.
+    - Integration of **SHAP (SHapley Additive exPlanations)** to interpret predictions, providing transparency and building trust by explaining *why* a specific price was predicted.
 
----
+
 ## Live Demo
 Check out the live application running on Render:
  https://house-pricing-model-n8ph.onrender.com/docs
 
----
+
 
 ## How to Run the API (Using Docker)
 
