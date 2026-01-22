@@ -1,6 +1,6 @@
-# 🏠 House Price Prediction Project
+# House Price Prediction Project
 
-## 📝 Project Overview
+## Project Overview
 
 This project aims to build a production-ready Machine Learning pipeline for predicting house prices using the Ames housing dataset. Unlike typical academic projects, this solution focuses on MLOps best practices, demonstrating key skills in model deployment, custom data processing, and pipeline management.
 
@@ -8,7 +8,7 @@ The core objective is to move beyond simple modeling to create a robust, deploya
 
 ---
 
-## 🚀 Key Technologies Used
+## Key Technologies Used
 
 The solution leverages a modern tech stack to ensure the model is scalable, reproducible, and easy to deploy:
 
@@ -28,7 +28,7 @@ The solution leverages a modern tech stack to ensure the model is scalable, repr
 
 ---
 
-## 🔬 Project Deep Dive: The Data Science Process
+## Project Deep Dive: The Data Science Process
 
 The complete analytical process is documented in `notebooks/house_pricing.ipynb`:
 
@@ -57,7 +57,7 @@ Check out the live application running on Render:
 
 ---
 
-## 🛠️ How to Run the API (Using Docker)
+## How to Run the API (Using Docker)
 
 To run the API and test the model, you only need Docker Desktop installed.
 
@@ -79,6 +79,6 @@ docker run -d --name house-pricing-production -p 8000:8000 house-pricing-api:lat
 
 Once the container is running, the API documentation (Swagger UI) is available at:
 
-👉 http://localhost:8000/docs
+-> http://localhost:8000/docs
 
 Use the POST /predict endpoint with the required house data JSON to get a prediction.
